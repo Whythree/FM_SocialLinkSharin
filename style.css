@@ -91,11 +91,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: sans-serif;
+	flex-direction: column;
 }
 
 main {
 	background-color: var(--dark-grey);
 	padding: 2rem;
+	border-radius: 12px;
 }
 
 img {
@@ -143,8 +145,26 @@ li a {
 	background-color: var(--grey);
 	display: block;
 	margin-top: var(--m4);
+	color: var(--white);
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: var(--fontSize-medium);
+	padding: var(--p3);
+	border-radius: 8px;
 }
 
+li a:hover {
+	background-color: var(--primary);
+	color: var(--grey);
+}
+
+footer{
+	color:var(--white);
+	margin-top: var(--m5);
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: var(--primary); }
 
 
 
