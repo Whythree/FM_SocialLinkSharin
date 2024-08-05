@@ -33,6 +33,25 @@
 }
 
 
+@font-face {
+	font-family: 'Inter';
+	src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 /*
@@ -90,8 +109,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: sans-serif;
 	flex-direction: column;
+	font-family: 'Inter', sans-serif;
 }
 
 main {
@@ -141,7 +160,6 @@ li {
 }
 
 li a {
-	font-style: italic;
 	background-color: var(--grey);
 	display: block;
 	margin-top: var(--m4);
